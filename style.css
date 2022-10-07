@@ -3,6 +3,126 @@
 	padding: 0;
 	box-sizing: border-box;
   }
+
+  .gallery {
+  	display: flex;
+  	flex-wrap: wrap;
+  	width: 100%;
+  	justify-content: center;
+  	align-items: center;
+  	margin: 50px 0;
+  }
+
+  .content {
+  	width: 24%;
+  	margin: 15px;
+  	box-sizing: border-box;
+  	float: left;
+  	text-align: center;
+  	border-radius: 10px;
+  	border-top-right-radius: 10px;
+  	border-bottom-right-radius: 10px;
+  	padding-top: 10px;
+  	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  	transition: .4s;
+  }
+
+  .content:hover {
+  	box-shadow: 0 0 11px rgba(33, 33, 33, .2);
+  	transform: translate(0px, -8px);
+  	transition: .6s;
+  }
+
+  .imgg {
+  	width: 275px;
+  	height: 200px;
+  	text-align: center;
+  	margin: 0 auto;
+  	display: block;
+  }
+
+ 
+
+  button {
+  	text-align: center;
+  	font-size: 24px;
+  	color: #fff;
+  	width: 100%;
+  	padding: 15px;
+  	border: 0px;
+  	outline: none;
+  	cursor: pointer;
+  	margin-top: 5px;
+  	border-bottom-right-radius: 10px;
+  	border-bottom-left-radius: 10px;
+  }
+
+  .buy-1 {
+  	background-color: #2183a2;
+  }
+
+  .buy-2 {
+  	background-color: #3b3e6e;
+  }
+
+  .buy-3 {
+  	background-color: #0b0b0b;
+  }
+
+  @media(max-width: 1000px) {
+  	.content {
+  		width: 46%;
+  	}
+  }
+
+  @media(max-width: 750px) {
+  	.content {
+  		width: 100%;
+  	}
+  }
+
+.img-container {
+	height: 230px;
+	width: 200px;
+	overflow: hidden;
+	border-radius: 0px 0px 20px 20px;
+	display: inline-block;
+}
+
+.img-container img {
+	transform: skew(0deg, -13deg);
+	height: 250px;
+	margin: -35px 0px 0px -70px;
+}
+
+.inner-skew {
+	display: inline-block;
+	border-radius: 20px;
+	overflow: hidden;
+	padding: 0px;
+	transform: skew(0deg, 13deg);
+	font-size: 0px;
+	margin: 30px 0px 0px 0px;
+	background: #c8c2c2;
+	height: 250px;
+	width: 200px;
+}
+
+.text-container {
+	box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+	padding: 120px 20px 20px 20px;
+	border-radius: 20px;
+	background: #fff;
+	margin: -120px 0px 0px 0px;
+	line-height: 19px;
+	font-size: 14px;
+}
+
+.text-container h3 {
+	margin: 20px 0px 10px 0px;
+	color: #04bcff;
+	font-size: 18px;
+}
   
   
   body {
@@ -42,6 +162,7 @@
   p {
 	color: #555;
   }
+
   
   .container {
 	max-width: 1300px;
@@ -52,7 +173,8 @@
   }
   
   .row {
-	display: flex;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
 	margin-top: -20px;
 	align-items: center;
 	flex-wrap: wrap;
@@ -122,14 +244,16 @@
   .col-4 {
 	flex-basis: 25%;
 	padding: 10px;
-	min-width: 200px;
+
 	margin-bottom: 50px;
 	transition: transform 0.5s;
   }
   
   .col-4 img {
 	width: 100%;
+	height: 50%;
   }
+  
   
   .title {
 	text-align: center;

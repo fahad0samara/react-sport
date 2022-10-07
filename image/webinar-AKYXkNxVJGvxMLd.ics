@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+METHOD:PUBLISH
+PRODID:-//WebinarJam/WebinarJam//EN
+X-MS-OLK-FORCEINSPECTOROPEN:TRUE
+BEGIN:VEVENT
+UID:AKYXkNxVJGvxMLd
+SUMMARY:Join Our Webinar: Roadmap to Success
+DESCRIPTION:Webinar: Join Our Webinar: Roadmap to Success \nDescription: Unlock your potential and receive tips to accelerate your career by creating a roadmap for success.\nHost(s): Elan Divon, Kelli Sussman\nWebinar link: https://event.webinarjam.com/go/live/247/49pz0f0zi9vaylb8577
+DTSTAMP:20221012T140000Z
+DTSTART:20221012T140000Z
+DTEND:20221012T150000Z
+END:VEVENT
+END:VCALENDAR
