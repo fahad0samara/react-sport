@@ -4,8 +4,13 @@
 	box-sizing: border-box;
   }
   
+  
   body {
 	font-family: "Poppins", sans-serif;
+  }
+  .img1{
+	  width: 50%;
+	  height: 20%;
   }
   
   .navbar {
@@ -73,7 +78,7 @@
   
   .btn {
 	display: inline-block;
-	background: #ff523b;
+	background: #2888ff;
 	color: #ffffff;
 	padding: 8px 30px;
 	margin: 30px 0;
@@ -135,7 +140,7 @@
   }
   .title::after {
 	content: "";
-	background: #ff523b;
+	background: #2888ff;
 	width: 80px;
 	height: 5px;
 	border-radius: 5px;
@@ -155,11 +160,11 @@
   }
   
   .rating .fas {
-	color: #ff523b;
+	color: #2888ff;
   }
   
   .rating .far {
-	color: #ff523b;
+	color: #2888ff;
   }
   
   .col-4:hover {
@@ -169,7 +174,7 @@
   /* Offer */
   
   .offer {
-	background: radial-gradient(#fff, #ffd6d6);
+	background: radial-gradient(#fff, #2888ff);
 	margin-top: 80px;
 	padding: 30px 0;
   }
@@ -208,7 +213,7 @@
   
   .fa-quote-left {
 	font-size: 34px;
-	color: #ff523b;
+	color: #2888ff;
   }
   
   .col-3 p {
@@ -353,7 +358,7 @@
   }
   
   select {
-	border: 1px solid #ff523b;
+	border: 1px solid #2888ff;
 	padding: 5px;
   }
   
@@ -367,7 +372,7 @@
   
   .page-btn span {
 	display: inline-block;
-	border: 1px solid #ff523b;
+	border: 1px solid #2888ff;
 	margin-left: 10px;
 	width: 40px;
 	height: 40px;
@@ -377,7 +382,7 @@
   }
   
   .page-btn span:hover {
-	background: #ff523b;
+	background: #2888ff;
 	color: #ffffff;
   }
   
@@ -413,7 +418,7 @@
 	padding-left: 10px;
 	font-size: 20px;
 	margin-right: 10px;
-	border: 1px solid #ff523b;
+	border: 1px solid #2888ff;
   }
   
   input:focus {
@@ -421,7 +426,7 @@
   }
   
   .single-product .fas {
-	color: #ff523b;
+	color: #2888ff;
 	margin-left: 10px;
   }
   
@@ -455,7 +460,7 @@
 	text-align: left;
 	padding: 5px;
 	color: #ffffff;
-	background: #ff523b;
+	background: #2888ff;
 	font-weight: normal;
   }
   td {
@@ -469,7 +474,7 @@
   }
   
   td a {
-	color: #ff523b;
+	color: #2888ff;
 	font-size: 12px;
   }
   
@@ -485,7 +490,7 @@
   }
   
   .total-price table {
-	border-top: 3px solid #ff523b;
+	border-top: 3px solid #2888ff;
 	width: 100%;
 	max-width: 400px;
   }
@@ -500,7 +505,7 @@
   /* account page */
   .account-page {
 	padding: 50px 0;
-	background: radial-gradient(#fff, #ffd6d6);
+	background: radial-gradient(#fff, #2888ff);
   }
   
   .form-container {
@@ -570,7 +575,7 @@
   #Indicator {
 	width: 100px;
 	border: none;
-	background: #ff523b;
+	background: #2888ff;
 	height: 3px;
 	margin-top: 8px;
 	transform: translateX(100px);
